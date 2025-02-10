@@ -2,10 +2,10 @@ body {
     background-color: rgb(92, 89, 89);
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+
 }
 
-h1{
+h1 {
     color: white;
 }
 
@@ -14,8 +14,8 @@ header {
     justify-content: center;
     padding: 30px;
     text-align: center;
-   
-    
+
+
 
 }
 
@@ -25,12 +25,12 @@ main {
     justify-content: center;
     align-items: center;
 
-    min-height: 80vh; 
+    min-height: 80vh;
     padding-bottom: 50px;
 
 }
 
-.container{
+.container {
     background-color: aliceblue;
 }
 
@@ -51,10 +51,10 @@ footer {
     position: relative;
     bottom: 0;
     left: 0;
-    width: 100%; 
-    
-    height: 50px; 
-  
+    width: 100%;
+
+    height: 50px;
+
 }
 
 .pie {
@@ -64,13 +64,13 @@ footer {
     text-align: center;
     color: white;
 
-  
-    
+
+
 }
 
 label {
     font-size: large;
-    
+
 }
 
 /** efectos input */
@@ -84,11 +84,11 @@ input[type="number"] {
     transition: background-color 0.5s ease, transform 0.3s ease;
     text-align: center;
     margin: 10px;
- }
+}
 
 input[type="number"]:hover {
     background-color: rgb(125, 127, 226);
- 
+
 
 }
 
@@ -101,7 +101,7 @@ button {
     cursor: pointer;
     margin: 10px;
     transition: background-color 0.5s ease, transform 0.3s ease;
-    
+
 }
 
 button:hover {
@@ -115,17 +115,15 @@ button:hover {
     color: white;
     border-radius: 15px;
     padding: 10px;
-    
+
 }
 
 
 
-.resu1 { 
+.resu1 {
     background-color: rgb(79, 80, 143);
     border-radius: 5px;
     padding: 3px;
     margin: 5px;
     font-size: 20px;
 }
-
-
